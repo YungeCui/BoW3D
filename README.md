@@ -11,6 +11,18 @@ var copy = function(target) {
     document.body.removeChild(textArea)
 }
 
+var pres = document.querySelectorAll(".comment-body > pre")
+pres.forEach(function(pre){
+  var button = document.createElement("button")
+  button.className = "btn btn-sm"
+  button.innerHTML = "copy"
+  pre.parentNode.insertBefore(button, pre)
+  button.addEventListener('click', function(e){
+    e.preventDefault()
+    copy(pre.childNodes[0])
+  })
+})
+
 @ARTICLE{9944848,
   author={Cui, Yunge and Chen, Xieyuanli and Zhang, Yinlong and Dong, Jiahua and Wu, Qingxiao and Zhu, Feng},
   journal={IEEE Robotics and Automation Letters}, 
