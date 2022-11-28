@@ -39,7 +39,7 @@ add_executable(bow3d
       src/Frame.cpp       
       src/LinK3D_Extractor.cpp 
       src/BoW3D.cpp 
-      src/Test_BoW3D.cpp
+      Example.cpp
       )
 
 target_link_libraries(bow3d ${catkin_LIBRARIES} ${CERES_LIBRARIES} ${OpenCV_LIBS} ${PCL_LIBRARIES} ${G2O_LIBS} ${Sophus_LIBRARIES})
