@@ -24,7 +24,7 @@ We have tested the library in Ubuntu 16.04, but it should be easy to compile in 
 - [Eigen 3](https://eigen.tuxfamily.org/dox/)
 
 ## 3. Compile and run the package
-Before compile the package, you should change the dataset path in the main function of Example.cpp file. The point cloud files in KITTI with the format .bin are read to the system.
+Before compile the package, in the main function of Example.cpp file, you should replace the dataset path with the file path in your computer. 
 
     cd ~/catkin_ws/src
     git clone https://github.com/YungeCui/BoW3D/
