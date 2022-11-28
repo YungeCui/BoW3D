@@ -23,4 +23,8 @@ We have tested the library in Ubuntu 16.04, but it should be easy to compile in 
 - [OpenCV](https://github.com/opencv/opencv)
 - [Eigen 3](https://eigen.tuxfamily.org/dox/)
 
-## 3. Prerequisites
+## 3. Compile
+    cd ~/catkin_ws/src
+    git clone https://github.com/YungeCui/BoW3D/
+    cd ..
+    catkin_make -j8
