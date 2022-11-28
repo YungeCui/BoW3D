@@ -23,13 +23,13 @@ We have tested the library in Ubuntu 16.04, but it should be easy to compile in 
 - [OpenCV](https://github.com/opencv/opencv)
 - [Eigen 3](https://eigen.tuxfamily.org/dox/)
 
-## 3. Compile the package
+## 3. Compile and run the package
 Before compile the package, you should change the dataset path in the main function of Example.cpp file. The point cloud files in KITTI with the format .bin are read to the system.
 
     cd ~/catkin_ws/src
     git clone https://github.com/YungeCui/BoW3D/
     cd ..
     catkin_make -j8
-
-## 4. Run the package
     rosrun BoW3D bow3d
+
+    
