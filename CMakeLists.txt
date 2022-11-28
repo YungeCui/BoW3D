@@ -8,8 +8,7 @@ set(CMAKE_CXX_FLAGS "-std=c++11")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g")
 
 
-find_package(catkin REQUIRED COMPONENTS
-  cv_bridge    
+find_package(catkin REQUIRED COMPONENTS  
   pcl_ros
   roscpp
   roslib
@@ -32,7 +31,7 @@ include_directories(
     
 catkin_package(
     INCLUDE_DIRS include
-    CATKIN_DEPENDS cv_bridge geometry_msgs image_transport nav_msgs pcl_ros roscpp roslib rospy sensor_msgs std_msgs visualization_msgs
+    CATKIN_DEPENDS pcl_ros roscpp roslib rospy std_msgs 
     DEPENDS EIGEN3 PCL
 )
 
