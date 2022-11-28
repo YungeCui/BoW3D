@@ -3,7 +3,7 @@ BoW3D is developed for the real-time loop closing in 3D LiDAR SLAM. It builds th
 
 ## 1. Publication
 If you use the code in an academic work, please cite:
-<pre><code class="language-css">
+
     @ARTICLE{9944848,
       author={Cui, Yunge and Chen, Xieyuanli and Zhang, Yinlong and Dong, Jiahua and Wu, Qingxiao and Zhu, Feng},
       journal={IEEE Robotics and Automation Letters}, 
@@ -13,7 +13,7 @@ If you use the code in an academic work, please cite:
       number={},
       pages={1-8},
       doi={10.1109/LRA.2022.3221336}}
-    </code></pre>
+    
 
 ## 2. Prerequisites
 We have tested the library in Ubuntu 16.04, but it should be easy to compile in other platforms. A computer with an Intel Core i7 will ensure the real-time performance and provide stable and accurate results.
