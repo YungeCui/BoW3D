@@ -18,8 +18,5 @@ If you use the code in an academic work, please cite:
 ## 2. Prerequisites
 We have tested the library in Ubuntu 16.04, but it should be easy to compile in other platforms. A computer with an Intel Core i7 will ensure the real-time performance and provide stable and accurate results.
 
-### catkin_make Compiler
-We use the catkin_make compiler of ROS to compile the BoW3D package.
-
-### ROS 
-Install: [ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu)
+### ROS kinetic 
+ROS installation: [ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu)
