@@ -21,4 +21,5 @@ We have tested the library in Ubuntu 16.04, but it should be easy to compile in 
 ### catkin_make Compiler
 We use the catkin_make compiler of ROS to compile the BoW3D package.
 
-
+### ROS 
+Install: [ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu)
