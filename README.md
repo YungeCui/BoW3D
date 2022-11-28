@@ -18,7 +18,9 @@ If you use the code in an academic work, please cite:
 ## 2. Prerequisites
 We have tested the library in Ubuntu 16.04, but it should be easy to compile in other platforms. A computer with an Intel Core i7 will ensure the real-time performance and provide stable and accurate results.
  
-- [ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu)
+- [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 - [PCL(>=1.7)](https://github.com/PointCloudLibrary/pcl)
 - [OpenCV](https://github.com/opencv/opencv)
 - [Eigen 3](https://eigen.tuxfamily.org/dox/)
+
+## 3. Prerequisites
