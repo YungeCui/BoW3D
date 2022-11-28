@@ -5,6 +5,11 @@ BoW3D is developed for the real-time loop closing in 3D LiDAR SLAM. It builds th
 ## **Publication:**
 If you use the code in an academic work, please cite:
 
+document.addEventListener('clipboard-copy', function(event) {
+  const button = event.target
+  button.classList.add('highlight')
+})
+
 @ARTICLE{9944848,
   author={Cui, Yunge and Chen, Xieyuanli and Zhang, Yinlong and Dong, Jiahua and Wu, Qingxiao and Zhu, Feng},
   journal={IEEE Robotics and Automation Letters}, 
