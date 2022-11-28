@@ -22,3 +22,5 @@ We have tested the library in Ubuntu 16.04, but it should be easy to compile in 
 Our code depend on ROS Kinetic, which is used to simulate LiDAR frequency. 
 ROS Kinetic installation: [ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 
+### PCL
+
