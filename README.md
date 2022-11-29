@@ -5,6 +5,7 @@ Fig1. Overall data structure:
 ![Alt text](https://github.com/YungeCui/BoW3D/blob/main/Fig/Overall_data_structure.jpg)
 
 Fig2.
+![Alt text](https://github.com/YungeCui/BoW3D/blob/main/Fig/Detection_matching_result1.jpg)
 
 ## 1. Publication
 If you use the code in an academic work, please cite:
