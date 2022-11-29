@@ -364,7 +364,7 @@ namespace BoW3D
         R = V * U.transpose();
         t = center2 - R * center1;
 
-        return vRemoveCenterPt1.size();
+        return 1;
     }
 
 }
