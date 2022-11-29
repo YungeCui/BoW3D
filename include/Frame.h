@@ -3,7 +3,6 @@
 #include <iostream>
 #include <vector>
 
-#include <ros/ros.h>
 #include <pcl/point_types.h>
 #include <pcl/conversions.h>
 #include <eigen3/Eigen/Dense>
