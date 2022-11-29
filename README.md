@@ -30,6 +30,7 @@ Before compile the package, in the main function of Example.cpp file, you should
     git clone https://github.com/YungeCui/BoW3D/
     cd ..
     catkin_make -j8
+    source devel/setup.bash
     rosrun BoW3D bow3d
 
     
