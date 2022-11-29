@@ -4,8 +4,9 @@ BoW3D is developed for the real-time loop closing in 3D LiDAR SLAM. It builds th
 Fig1. Overall data structure:
 ![Alt text](https://github.com/YungeCui/BoW3D/blob/main/Fig/Overall_data_structure.jpg)
 
-Fig2.
+Fig2. The detection and matching results:
 ![Alt text](https://github.com/YungeCui/BoW3D/blob/main/Fig/Detection_matching_result1.jpg)
+![Alt text](https://github.com/YungeCui/BoW3D/blob/main/Fig/Detection_matching_result2.jpg)
 
 ## 1. Publication
 If you use the code in an academic work, please cite:
