@@ -341,7 +341,6 @@ namespace BoW3D
                 {
                     continue;
                 }
-
                 tmpclusters.emplace_back(curAreaCluster[j]);
             }
         }
@@ -439,15 +438,13 @@ namespace BoW3D
     }
 
     vector<pcl::PointXYZI> LinK3D_Extractor::getMeanKeyPoint(const ScanEdgePoints &clusters, ScanEdgePoints &validCluster)
-    {
-        vector<pcl::PointXYZI> keyPoints;
-        int numCluster = clusters.size();
-
-        map<float, int> distanceOrder;
-
+    {        
         int count = 0;
+        int numCluster = clusters.size();
+        vector<pcl::PointXYZI> keyPoints;
         vector<pcl::PointXYZI> tmpKeyPoints;
         ScanEdgePoints tmpEdgePoints;
+        map<float, int> distanceOrder;
 
         for(int i = 0; i < numCluster; i++)
         {
@@ -492,7 +489,6 @@ namespace BoW3D
             }
 
             distanceOrder[distance] = count; 
-
             count++;
             
             tmpKeyPoints.emplace_back(pt);
@@ -502,7 +498,6 @@ namespace BoW3D
         for(auto iter = distanceOrder.begin(); iter != distanceOrder.end(); iter++)
         {
             int index = (*iter).second;
-
             pcl::PointXYZI tmpPt = tmpKeyPoints[index];
             
             keyPoints.emplace_back(tmpPt);
@@ -845,7 +840,9 @@ namespace BoW3D
                 auto it2 = mScanID_Index2.find(scanID1);
                 if(it2 == mScanID_Index2.end()){
                     continue;
-                }else{
+                }
+                else
+                {
                     vector<PointXYZSCA> tmpMatchPt;
                     PointXYZSCA pt1 = filtered1[matchedInd.first][(*it1).second];
                     PointXYZSCA pt2 = filtered2[matchedInd.second][(*it2).second];
