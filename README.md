@@ -5,7 +5,7 @@ BoW3D is developed for the real-time loop closing in 3D LiDAR SLAM. It builds th
 Fig1. The hash table is used as the overall data structure. The word of BoW3D consists of the non-zero value (Dim-value) in the descriptor and the corresponding dimension (Dim-ID). Each word corresponds to a place set, in which the word has appeared. The place also consists of two parts, one is frame ID, the other is the descriptor ID in the frame.
 
 ![Alt text](https://github.com/YungeCui/BoW3D/blob/main/Fig/Detection_matching_results.jpg)
-Fig2. The recognition and matching results based on BoW3D.
+Fig2. The recognition results based on BoW3D and the matching results based on LinK3D on loops with different directions.
 
 ## 1. Publication
 If you use the code in an academic work, please cite:
