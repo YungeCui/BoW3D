@@ -55,7 +55,7 @@ int main(int argc, char** argv)
     ros::NodeHandle nh;  
 
 
-    /*Please replace the dataset folder path with the path in your computer*/
+    /*Please replace the dataset folder path with the path in your computer. KITTI's 00, 02, 05, 06, 07, 08 have loops*/
     string dataset_folder;
     dataset_folder = "/home/cuiyunge/dataset/velodyne/"; //The last '/' should be added 
 
