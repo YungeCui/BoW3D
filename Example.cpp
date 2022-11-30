@@ -18,7 +18,7 @@ using namespace BoW3D;
 
 //Parameters of LinK3D
 int nScans = 64; //Number of LiDAR scan lines
-float scanPeriod = 0.1; //LiDAR frequency
+float scanPeriod = 0.1; 
 float minimumRange = 0.1;
 float distanceTh = 0.4;
 int matchTh = 6;
