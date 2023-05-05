@@ -10,13 +10,16 @@ Fig2. The recognition results based on BoW3D and the matching results based on L
 ## 1. Publication
 If you use the code in an academic work, please cite:
 
-    @article{cui2022bow3d,
-      title={BoW3D: Bag of Words for Real-Time Loop Closing in 3D LiDAR SLAM},
+    @ARTICLE{9944848,
       author={Cui, Yunge and Chen, Xieyuanli and Zhang, Yinlong and Dong, Jiahua and Wu, Qingxiao and Zhu, Feng},
-      journal={IEEE Robotics and Automation Letters},
-      year={2022},
-      publisher={IEEE}
-    }
+      journal={IEEE Robotics and Automation Letters}, 
+      title={BoW3D: Bag of Words for Real-Time Loop Closing in 3D LiDAR SLAM}, 
+      year={2023},
+      volume={8},
+      number={5},
+      pages={2828-2835},
+      doi={10.1109/LRA.2022.3221336}}
+
     
 
 ## 2. Prerequisites
